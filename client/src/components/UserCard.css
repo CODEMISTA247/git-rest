@@ -1,0 +1,18 @@
+.UserCard {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px; 
+    flex-wrap: wrap;
+}
+
+.UserCard .card:hover  {
+    transform: scale(1.1);
+}
+
+.UserCard .card {
+    float: left; 
+    width: calc(33.33% - 10px); 
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+}
+
